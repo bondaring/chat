@@ -98,8 +98,8 @@ button:hover {
 
 @media (max-width: 480px) {
     .chat-container {
-        width: 98%;
-        height: 90vh;
+        width: 90%;
+        height: 80vh;
         padding: 10px;
     }
 
