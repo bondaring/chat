@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondar Chat IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loader con efecto de máquina de escribir -->
+    <div id="loader">
+        <span id="loader-text"></span><span class="cursor">|</span>
+    </div>
+
+    <!-- Contenedor del chat -->
+    <div class="chat-container hidden">
+        <h1></h1>
+        <div id="chat-box"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Escribe un mensaje..." autofocus>
+            <button onclick="sendMessage()">Enviar</button>
+           
+        </div>
+    </div>
+    <p>created by Sergei Bondar</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
