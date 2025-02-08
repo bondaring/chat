@@ -21,7 +21,7 @@ body {
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
-    height: 80vh; /* Ajusta la altura para que se adapte mejor en móviles */
+    height: 70vh; /* Ajusta la altura para que se adapte mejor en móviles */
 }
 
 /* 💬 Caja del chat */
