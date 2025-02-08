@@ -4,7 +4,7 @@ const loader = document.getElementById("loader");
 const loaderText = document.getElementById("loader-text");
 const container = document.querySelector(".chat-container");
 
-const API_KEY = "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"; // 🔴 Usa tu API Key de TogetherAI aquí
+const API_KEY = "NEW_KEY"; // 🔴 Usa tu API Key de TogetherAI aquí
 const CHAT_STORAGE_KEY = "chat_history"; // Guardar historial en el navegador
 
 // Loader con efecto de máquina de escribir
